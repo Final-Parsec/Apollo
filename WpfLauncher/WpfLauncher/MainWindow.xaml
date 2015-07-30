@@ -3,6 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Apollo" Height="350" Width="525">
     <Grid>
-        
+        <Button Content="Launch Space Snakes II: The Venom Event" HorizontalAlignment="Left" Margin="10,204,0,0" VerticalAlignment="Top" Width="497" Click="LaunchVenomEventButton_Click"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="56,5,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="164" Margin="56,10,0,0" VerticalAlignment="Top" Width="122" Source="Vector Lunar Pioneer Firing Small.png"/>
+        <Image HorizontalAlignment="Left" Height="164" Margin="237,10,0,0" VerticalAlignment="Top" Width="261" Source="b&amp;w-logomark-trans.png"/>
+
     </Grid>
 </Window>

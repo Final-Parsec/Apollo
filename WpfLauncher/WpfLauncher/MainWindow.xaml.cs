@@ -1,4 +1,6 @@
-﻿namespace WpfLauncher
+﻿using System.Diagnostics;
+
+namespace WpfLauncher
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -8,6 +10,11 @@
         public MainWindow()
         {
             this.InitializeComponent();
+        }
+
+        private void LaunchVenomEventButton_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            Process.Start(App.TheVenomEventExePath);
         }
     }
 }
