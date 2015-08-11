@@ -31,8 +31,8 @@
     <ProductName>Apollo</ProductName>
     <PublisherName>Final Parsec</PublisherName>
     <MinimumRequiredVersion>15.7.29.4</MinimumRequiredVersion>
-    <ApplicationRevision>5</ApplicationRevision>
-    <ApplicationVersion>15.7.29.%2a</ApplicationVersion>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>15.8.10.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -135,7 +135,7 @@
     </EmbeddedResource>
     <None Include="app.config" />
     <Resource Include="b&amp;w-logomark-trans.png" />
-    <Content Include="game_files\TheVenomEvent_0_0_2.zip">
+    <Content Include="game_files\TheVenomEvent_0_0_3.zip">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Properties\app.manifest" />
